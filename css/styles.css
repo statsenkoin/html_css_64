@@ -26,14 +26,14 @@ img {
   height: auto;
 }
 address {
-   /* или через класс .footer-address */
+  /* или через класс .footer-address */
   font-style: normal;
 }
 button {
   display: block;
   margin: 0 auto;
   cursor: pointer;
-  font-family: var(--main-font); 
+  font-family: var(--main-font);
   /* (убрать, если есть modern normalize) */
   border: none;
   border-radius: 4px;
@@ -51,4 +51,15 @@ button {
 .link {
   text-decoration: none;
   /* color: inherit; */
+}
+.section-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
